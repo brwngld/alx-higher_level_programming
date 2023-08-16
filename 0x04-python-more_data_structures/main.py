@@ -1,19 +1,7 @@
 #!/usr/bin/python3
-""" Roman to Integer test file
-"""
-roman_to_int = __import__('12-roman_to_int').roman_to_int
+common_elements = __import__('3-common_elements').common_elements
 
-roman_number = "X"
-print("{} = {}".format(roman_number, roman_to_int(roman_number)))
-
-roman_number = "VII"
-print("{} = {}".format(roman_number, roman_to_int(roman_number)))
-
-roman_number = "IX"
-print("{} = {}".format(roman_number, roman_to_int(roman_number)))
-
-roman_number = "LXXXVII"
-print("{} = {}".format(roman_number, roman_to_int(roman_number)))
-
-roman_number = "DCCVII"
-print("{} = {}".format(roman_number, roman_to_int(roman_number)))
+set_1 = { "Python", "C", "Javascript" }
+set_2 = { "Bash", "C", "Ruby", "Perl" }
+c_set = common_elements(set_1, set_2)
+print(sorted(list(c_set)))
