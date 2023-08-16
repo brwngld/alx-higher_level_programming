@@ -1,3 +1,4 @@
+This a README
 0. Import a simple function from a simple file
 mandatory
 Score: 0.0% (Checks completed: 0.0%)
