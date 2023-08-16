@@ -3,11 +3,15 @@
 import sys
 
 count = len(sys.argv) - 1
+
+print("Number of argument(s):", end=" ")
 if count == 0:
-    print("0 arguments.")
+    print(".", end="\n\n")
 elif count == 1:
     print("1 argument:")
+    print("1:", sys.argv[1])
 else:
-    print("{} arguments:".format(count))
-for i in range(count):
-    print("{}: {}".format(i + 1, sys.argv[i + 1]))
+    print(count, "arguments:")
+
+    for i in range(1, count + 1):
+        print(i, ":", sys.argv[i])
