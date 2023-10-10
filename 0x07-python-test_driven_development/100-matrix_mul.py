@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""A function that multiplies 2 matrices."""
+"""Defines a matrix multiplication function."""
 
 
 def matrix_mul(m_a, m_b):
-    """Multiplies two matrices.
+    """Multiply two matrices.
 
     Args:
         m_a (list of lists of ints/floats): The first matrix.
