@@ -1,1 +1,1 @@
-hello
+This is a README for the project 0x0D-SQL_introduction
