@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""A python script that displays the X-Request-Id header variable of a request to a given URL.
-Usage: ./5-hbtn_header.py <URL>
+"""A python script that displays the X-Request-Id header variable of a
+request to a given URL. Usage: ./5-hbtn_header.py <URL>
 """
 import sys
 import requests

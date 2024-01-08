@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-"""A python script that lists the 10 most recent commits on a given GitHub repository.
-Usage: ./100-github_commits.py <repository name> <repository owner>
+"""A python script that lists the 10 most recent commits on a given
+GitHub repository. Usage: ./100-github_commits.py <repository name>
+<repository owner>
 """
 import sys
 import requests

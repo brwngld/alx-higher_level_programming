@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""A python script that sends a request to a given URL and displays the response body.
-Usage: ./7-error_code.py <URL>
+"""A python script that sends a request to a given URL and displays the
+response body. Usage: ./7-error_code.py <URL>
   - Handles HTTP errors.
 """
 import sys
